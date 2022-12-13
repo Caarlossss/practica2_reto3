@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="o7MtbUo!-)O2UL{ePWP=" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="SjQV=?=.h5Z?H6PX~)%`"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="#AmOB=5,60V(mGMUF3Oy"><field name="OP">GT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_temperature" id="W^F1H~Q`|niy{[|*cQ!N"></block></value><value name="B"><shadow type="math_number" id="23m3@cIVh_k^Q+(sfS!Q"><field name="NUM">-5</field></shadow></value></block></value><statement name="DO0"><block type="device_play_note" id="x!inl.MFAJyf^Em3go})"><value name="note"><shadow type="device_note" id="u6TMjcR?*c;Nf7XFVAS="><field name="note">494</field></shadow></value><value name="duration"><shadow type="device_beat" id="d1quw]-L3,-iqd/cZi])"><field name="fraction">BeatFraction.Half</field></shadow></value><next><block type="device_show_leds" id="Zgx/|a)%2#a#_Db2bHUC"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . . . . 
+        . . # . .
+        `</field><next><block type="device_clear_display" id="1+@TiosGKljhBGkvn[C;"></block></next></block></next></block></statement><statement name="ELSE"><block type="device_show_number" id="D:$an-q8{yeoH9.RSgA9"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_temperature" id="svugJ,SOWD62[(8qptR_"></block></value><next><block type="device_show_leds" id="G958ytkpQ06*hil#5NJ|"><field name="LEDS">`
+        . . . . # 
+        . . . # . 
+        # . # . . 
+        # . # . . 
+        . # . . .
+        `</field><next><block type="device_clear_display" id=",e2|LA.a4SmIIK:z!TfS"></block></next></block></next></block></statement></block></statement></block></xml>
